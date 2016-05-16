@@ -19,8 +19,8 @@ const char* LOSANT_DEVICE_ID = "my-device-id";
 const char* LOSANT_ACCESS_KEY = "my-access-key";
 const char* LOSANT_ACCESS_SECRET = "my-access-secret";
 
-const int BUTTON_PIN = 14;
-const int LED_PIN = 12;
+const int BUTTON_PIN = 5;
+const int LED_PIN = 4;
 
 bool ledState = false;
 

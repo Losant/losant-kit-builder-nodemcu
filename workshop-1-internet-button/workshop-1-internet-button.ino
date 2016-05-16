@@ -20,7 +20,7 @@ const char* LOSANT_DEVICE_ID = "my-device-id";
 const char* LOSANT_ACCESS_KEY = "my-access-key";
 const char* LOSANT_ACCESS_SECRET = "my-access-secret";
 
-const int BUTTON_PIN = 14;
+const int BUTTON_PIN = 5;
 
 WiFiClientSecure wifiClient;
 

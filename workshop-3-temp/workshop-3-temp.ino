@@ -19,8 +19,8 @@ const char* LOSANT_DEVICE_ID = "my-device-id";
 const char* LOSANT_ACCESS_KEY = "my-access-key";
 const char* LOSANT_ACCESS_SECRET = "my-access-secret";
 
-const int BUTTON_PIN = 14;
-const int LED_PIN = 12;
+const int BUTTON_PIN = 5;
+const int LED_PIN = 4;
 
 bool ledState = false;
 
@@ -157,7 +157,7 @@ void loop() {
     // The tmp36 documentation requires the -0.5 offset, but during
     // testing while attached to the Feather, all tmp36 sensors
     // required a -0.52 offset for better accuracy.
-    double degreesC = (((raw / 1024.0) * 2.0) - 0.57) * 100.0;
+    double degreesC = (((raw / 1024.0) * 3.2) - 0.5) * 100.0;
     double degreesF = degreesC * 1.8 + 32;
 
     Serial.println();
