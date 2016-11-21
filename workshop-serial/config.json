@@ -1,0 +1,16 @@
+{
+  "losant-config-wifi-ssid": "HOME-2F72",
+  "losant-config-wifi-pass": "D5E491849E5E71FC",
+  "losant-config-device-id": "5825276def9bc90100885a53",
+  "losant-config-access-key": "2d1dc7fd-c829-45ed-a625-cba81d1b36d1",
+  "losant-config-access-secret": "db3849c063f87f89a3f1a506a6cce235732d1cc29b5d3d620037fdaac1ef8c9b"
+}
+
+{
+  "losant-config-wifi-ssid": "HOME-2F72",
+  "losant-config-wifi-pass": "D5E491849E5E71FC",
+  "losant-config-device-id": "5825276def9bc90100885a53",
+  "losant-config-access-key": "2d1dc7fd-c829-45ed-a625-cba81d1b36d1",
+  "losant-config-access-secret": "db3849c063f87f89a3f1a506a6cce235732d1cc29b5d3d620037fdaac1ef8c9b",
+  "losant-config-tmp": true
+}
