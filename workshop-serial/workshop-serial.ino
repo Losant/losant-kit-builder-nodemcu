@@ -161,7 +161,7 @@ void setup() {
   delay(2000);
 
   Serial.println();
-  Serial.println("Running Workshop 3 Firmware.");
+  Serial.println("Running Workshop 3 Firmware. Waiting for config...");
 
   pinMode(BUTTON_PIN, INPUT);
   pinMode(LED_PIN, OUTPUT);
