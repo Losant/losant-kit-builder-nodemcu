@@ -161,7 +161,7 @@ void loop() {
     // The tmp36 documentation requires the -0.5 offset, but during
     // testing while attached to the Feather, all tmp36 sensors
     // required a -0.52 offset for better accuracy.
-    double degreesC = (((raw / 1024.0) * 3.2) - 0.5) * 100.0;
+    double degreesC = (((raw / 1024.0) * 3.2) - 0.52) * 100.0;
     double degreesF = degreesC * 1.8 + 32;
 
     Serial.println();
